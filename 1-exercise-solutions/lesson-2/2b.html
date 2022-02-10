@@ -1,0 +1,14 @@
+<style>
+  .amazon-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 30px;
+    width: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="amazon-button">
+  Add to Cart
+</button>

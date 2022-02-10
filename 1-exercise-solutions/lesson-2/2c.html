@@ -1,0 +1,17 @@
+<style>
+  .github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<button class="github-button">
+  Sign up
+</button>
