@@ -1,0 +1,39 @@
+p {
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-box {
+  font-size: 16px;
+  width: 400px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 400px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+}
