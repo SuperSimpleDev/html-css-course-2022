@@ -1,0 +1,23 @@
+<a href="https://amazon.com">
+  Back to Amazon
+</a>
+
+<p>
+  Nike Black Running Shoes
+</p>
+
+<p>
+  $39 - in stock.
+</p>
+
+<p>
+  Free delivery tomorrow.
+</p>
+
+<button>
+  Add to Cart
+</button>
+
+<button>
+  Buy now
+</button>
