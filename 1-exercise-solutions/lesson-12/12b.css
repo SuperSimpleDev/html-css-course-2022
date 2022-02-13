@@ -10,3 +10,15 @@
 .lightpink {
   background-color: lightpink;
 }
+
+.item1 {
+  width: 50px;
+}
+
+.item2 {
+  flex: 1;
+}
+
+.item3 {
+  width: 75px;
+}

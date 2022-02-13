@@ -6,6 +6,7 @@ div {
   background-color: rgb(120, 82, 178);
   color: white;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-left: 15px;
