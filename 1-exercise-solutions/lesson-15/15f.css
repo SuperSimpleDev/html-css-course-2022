@@ -1,0 +1,50 @@
+body {
+  height: 3000px;
+}
+
+.product-container {
+  position: relative;
+  display: inline-block;
+}
+
+.product-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.promotion {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart-button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

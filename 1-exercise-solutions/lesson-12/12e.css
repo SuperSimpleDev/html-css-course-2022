@@ -3,7 +3,9 @@ div {
 }
 
 .container {
-  border: 1px solid rgb(200, 200, 200);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
   width: 300px;
   border-radius: 6px;
 }
