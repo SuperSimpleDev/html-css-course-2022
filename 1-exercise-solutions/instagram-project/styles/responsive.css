@@ -1,0 +1,163 @@
+
+@media (min-width: 1277px) {
+    .instagram-logo1 {
+        display: none;
+    }
+ 
+}
+
+@media (max-width: 1160px) {
+    .middle-page {
+        position: relative;
+        margin-left: 130px;
+    }
+    .sidebar2 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 920px) {
+    .middle-page {
+        margin-left: 30px;
+    }
+    
+}
+
+@media (max-width: 740px) {
+    .middle-page {
+        position: relative;
+        margin-left: 10px;
+    }
+    .sidebar1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1304px) {
+    .middle-page {
+        padding-left: 211px;
+    }
+}
+
+@media (max-width: 1277px) {
+    .sidebar1 {
+        width: 70px;
+    }
+    .nav-text {
+        display: none;
+    }
+    .instagram-logo2 {
+        display: none;
+    }
+
+    /* middle page responsivness */
+
+    .middle-page {
+        position: relative;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 805px) {
+    .middle-page {
+        position: relative;
+        padding-left: 1px;
+        margin-top: 50px;
+    }
+    .sidebar1 {
+        display: none;
+    }
+}
+@media (max-width: 703px) {
+    .posts-container {
+        margin-left: 50px;
+    }
+    .stories {
+        width: 580px;
+    }
+    .story {  
+        padding: 0px 5px 0px 5px;
+        position: relative;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .story-ring {
+        width: 50px;
+    }
+    .profile-picture {
+        position: absolute;
+        width: 43px;
+        top: 4px;
+        border-radius: 25px;
+    }
+    .profile-name {
+        padding-top: 6px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 600px) {
+    .posts-container {
+        margin-left: 5px;
+        padding-top: 10px;
+    }
+    .stories {
+        width: 460px;
+        height: 90px;
+    }
+    .story {  
+        padding: 0px 5px 0px 5px;
+        position: relative;
+        width: 45px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .story-ring {
+        width: 35px;
+    }
+    .profile-picture {
+        position: absolute;
+        width: 28px;
+        top: 4px;
+        border-radius: 25px;
+    }
+    .profile-name {
+        padding-top: 6px;
+        font-size: 9.5px;
+    }
+    .more-stories {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.89);
+        color: rgba(0, 0, 0, 0.336);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        top: 9px;
+        right: 13px;
+        font-size: 12.5px;
+        padding: 1px 4.75px;
+        border-radius: 10px;
+    }
+    .posts-container {
+        width: 450px;
+    }
+    .post-image img {
+        border-radius: 5px;
+        width: 450px;
+        object-fit: cover;
+        height: 500px;
+    }
+    .all-caught-up-container {
+        padding-bottom: 50px;
+        margin-top: 40px;
+        width: 280px;
+        border-bottom: 1px solid rgb(214, 212, 212);
+        margin-bottom: 20px;
+    }
+    .right-section img {
+        top: 14px;
+        right: 8px;
+    }
+}
+
