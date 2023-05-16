@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #303030;
+    --shadow-color: rgba(132, 139, 200, 0.18);
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+    --default-border: 1px solid rgb(184, 184, 184);
+    --default-button-border-radius: 0.5rem;
+
+    --searchBar-padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    --searchBar-small-padding: 0.7rem 0.2rem 0.7rem 0.3rem;
+    --button-padding: 0.54rem 0.8rem;  
+    --padding-default: 0.6rem;
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --default-gap: 1.25rem;
+
+    --logo-width: 100px;
+    --small-logo-width: 100px;
+
+    --ad-image-width: 150px;
+
+    --video-width: 500px;
+
+    --box-shadow: 0 2rem 3rem var(--shadow-color);
+
+    --default-button: none;
+
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
