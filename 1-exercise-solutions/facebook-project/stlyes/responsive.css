@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 1150px) {
+  .right-sidebar {
+    display: none;
+  }
+  .main-container {
+    width: 65%;
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .left-sidebar {
+    display: none;
+  }
+  .main-container {
+    width: 90%;
+    margin-left: 0;
+  }
+  .create-story {
+    font-size: 0.7rem;
+  }
+  
+  .profile-menu-tooltip {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .right-section {
+    width: 120px;
+    flex-wrap: wrap;
+  }
+  .middle-section div span, .right-section div span {
+    font-size: 1rem;
+  }
+
+}

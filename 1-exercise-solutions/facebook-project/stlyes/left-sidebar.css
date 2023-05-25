@@ -1,0 +1,79 @@
+.left-sidebar {
+  margin-top: 3.3rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  font-family: Poppins;
+  background-color: var(--color-white);
+  z-index: 2;
+}
+
+.left-sidebar::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.left-sidebar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+.left-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(190, 190, 190); 
+  border-radius: 4px; 
+}
+
+.left-sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(101, 101, 101);
+}
+
+
+.left-sidebar-top-section, .left-sidebar-bottom-section {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--color-black);
+}
+
+.left-sidebar-top-element, .left-sidebar-bottom-element {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 3.5rem 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+}
+
+.left-sidebar-top-element:last-child {
+  border-radius: 0;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+
+.left-sidebar-top-element:last-child {
+  color: rgb(35, 116, 225);
+}
+
+.left-sidebar-top-element:last-child span {
+  background-color: rgba(218, 218, 218, 0.716);
+  padding-top: 1px;
+  border-radius: 50%;
+  color: black;
+}
+
+.left-sidebar-top-element:hover, .left-sidebar-bottom-element:hover {
+  background-color: rgba(204, 204, 204, 0.493);
+}
+
+.left-sidebar-bottom-section p {
+  font-weight: 500;
+  margin: 0;
+}
+
+.left-sidebar-top-element p, .left-sidebar-bottom-element p {
+  margin: 0;
+  font-weight: 500;
+}

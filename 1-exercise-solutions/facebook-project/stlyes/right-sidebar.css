@@ -1,0 +1,82 @@
+.right-sidebar {
+  margin-top: 3.3rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  font-family: Poppins;
+  background-color: var(--color-white);
+  z-index: 2;
+  direction: rtl;
+}
+
+.right-sidebar::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.right-sidebar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+.right-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(190, 190, 190); 
+  border-radius: 4px; 
+}
+
+.right-sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(101, 101, 101);
+}
+
+
+.right-sidebar-top-section, .right-sidebar-bottom-section {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  direction: ltr;
+  color: var(--color-black);
+}
+
+.right-sidebar-top-section {
+  justify-content: space-between;
+}
+
+.right-sidebar-top-section p, .right-sidebar-bottom-section p {
+  margin: 0;
+}
+
+
+.right-sidebar-top-section-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-sidebar-top-section-right span {
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  padding: 0.1rem;
+}
+
+.right-sidebar-top-section-right span:hover {
+  background-color: rgba(204, 204, 204, 0.493);
+}
+
+.right-sidebar-bottom-section {
+  flex-direction: column;
+}
+
+.right-sidebar-bottom-element {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 5.5rem 0.25rem 0;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+}
+
+.right-sidebar-bottom-element:hover {
+  background-color: rgba(204, 204, 204, 0.493);
+}

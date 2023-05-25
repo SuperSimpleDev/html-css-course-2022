@@ -1,0 +1,131 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  z-index: 3;
+  color: var(--color-black);
+}
+
+.left-section {
+  width: 25%;
+  display: flex;
+  gap: 0.5rem;
+  height: inherit;
+  padding-left: 0.5rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.left-section img {
+  width: 2.5rem;
+  object-fit: cover;
+}
+
+.left-section input {
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  color: var(--color-black);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.search-facebook input:focus {
+  border-bottom: 1px solid var(--color-black);
+}
+
+.header-image {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.search-facebook {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: var(--color-black);
+}
+
+.middle-section {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.middle-section div {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.middle-section div:hover {
+  background-color: var(--hover-color);
+}
+
+.middle-section div span, .right-section div span {
+  font-size: 1.9rem;
+  padding: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.right-section div span:hover {
+  background-color: var(--hover-color);  
+}
+
+.home-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  position: relative;
+}
+
+.home-icon span {
+  color: rgb(35, 116, 225);
+}
+
+.home-icon::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 5px;
+  background-color: rgb(35, 116, 225);
+}
+
+.right-section {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  width: 200px;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-right: 5px;
+  position: relative;
+}
