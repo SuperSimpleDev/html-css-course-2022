@@ -1,27 +1,81 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="14f.css">
-  </head>
-  <body>
-    <div class="sidebar1">
-      <div>
-        <img class="picture" src="cat.jpg">
-      </div>
-      <div>
-        <img class="picture" src="cat2.jpg">
-      </div>
-      <div>
-        <img class="picture" src="dog.jpg">
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        div {
+            font-family: Arial;
+        }
+
+        .picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            color: white;
+            font-size: 14;
+        }
+
+        .create-new {
+            color: rgb(150, 150, 150);
+            font-size: 25px;
+        }
+
+        .channel {
+            color: rgb(150, 150, 150);
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <!-- sidebar1 -->
+    <div style="background-color: rgb(33, 33, 33);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                padding: 10px;">
+        <div>
+            <img class="picture" src="cat.jpg" alt="">
+        </div>
+        <div>
+            <img class="picture" src="cat2.jpg" alt="">
+        </div>
+        <div>
+            <img class="picture" src="dog.jpg" alt="">
+        </div>
     </div>
-    <div class="sidebar2">
-      <div class="header">
-        <div class="name">INFO</div>
-        <div class="create-new">+</div>
-      </div>
-      <div class="channel"># new-videos</div>
-      <div class="channel"># updates</div>
-      <div class="channel"># faq</div>
-    </div>
-  </body>
+    <!-- sidebar2 -->
+     <div style="background-color: rgb(55, 55, 55);
+                 position: fixed;
+                 top: 0;
+                 left: 70px;
+                 bottom: 0;
+                 width: 150px;
+                 padding: 15px;">
+        <!-- header -->
+        <div style="display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 10px;">
+            <div class="name">INFO</div>
+            <div class="create-new">+</div>
+        </div>
+        <!-- body -->
+        <div class="channel"># new-videos</div>
+        <div class="channel"># updates</div>
+        <div class="channel"># faq</div>
+     </div>
+</body>
 </html>
