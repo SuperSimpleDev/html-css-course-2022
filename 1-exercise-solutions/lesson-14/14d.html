@@ -1,13 +1,62 @@
 <html>
   <head>
-    <link rel="stylesheet" href="14d.css">
+    <title>14d.html</title>
+    <style>
+      body {
+            height: 3000px;
+      }
+
+      div {
+          font-family: Arial;
+      }
+      
+      .right-sidebar {
+          background-color: green;
+          color: white;
+          position: fixed;
+          width: 100px;
+          right: 0;
+          bottom: 0;
+          top: 0;
+      }
+
+      .modal {
+        background-color: white;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+      }
+
+      .modal-title {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+
+      .modal-content {
+        font-family: Arial;
+        margin-bottom: 12px;
+      }
+    </style>
   </head>
   <body>
     <div class="right-sidebar">
       right sidebar
     </div>
-
-    <div class="overlay">
+    <!-- overlay -->
+    <div style="background-color: rgba(0, 0, 0, 0.5);
+                display: flex;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                justify-content: center;
+                align-items: center;">
       <div class="modal">
         <div class="modal-title">
           Modal Title
