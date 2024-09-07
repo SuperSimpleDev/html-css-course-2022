@@ -1,0 +1,214 @@
+.middle-page {
+    position: relative;
+    padding-left: 231px;
+}
+.stories {
+    padding-top: 45px;
+    padding-left: 0px;
+    width: 720px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.story {  
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.story-ring {
+    width: 60px;
+}
+.profile-picture {
+    position: absolute;
+    width: 53px;
+    top: 4px;
+    border-radius: 25px;
+}
+.profile-name {
+    padding-top: 6px;
+    font-size: 13px;
+}
+/* Again, since the elements have the same class name, i put 'style="position: relative;"' only inside the last HTML element that includes the icon, aka 'more stories' */
+.more-stories {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgba(0, 0, 0, 0.336);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 20px;
+    right: 25px;
+    padding: 1px 4.75px;
+    border-radius: 10px;
+}
+
+.spacing {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.posts-container {
+    width: 490px;
+    margin-left: 115px;
+    position: relative;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.post-header {
+    width: 490px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.post-ring {
+    position: absolute;
+    width: 38px;
+    border-radius: 32px;
+}
+.posts-profile-picture {
+    position: absolute;
+    width: 34px;
+    border-radius: 32px;
+    top: 2.4px;
+    left: 2.1px;
+}
+.post-author {
+    margin-left: 45px;
+    /*
+    display: grid;
+    grid-template-columns: 120px 150px; */
+}
+#single-post-author {
+    margin-top: 10px;
+}
+.optional-tag {
+    margin-left: 45px;
+}
+.right-section img {
+    width: 16px;
+    position: absolute;
+    top: 34px;
+    right: 8px;
+}
+#favourite {
+    position: absolute;
+    right: 40px;
+}
+.post-content {
+    margin-top: 7px;
+    width: 490px;
+}
+
+.post-image img {
+    border-radius: 5px;
+    width: 490px;
+    object-fit: cover;
+    height: 500px;
+}
+
+.post-actions-icons {
+    padding-top: 6px;
+    width: 490px;
+}
+
+.post-actions-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-actions-icons img {
+    width: 20px;
+}
+
+.likes-summary {
+    padding-top: 10px;
+    display: flex;
+    width: 235px;
+}
+
+.likes-summary div {
+    font-size: 12px;
+}
+
+.likes-summary img {
+    width: 17px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.post-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+}
+
+.post-description a {
+    border: none;
+    width: 45px;
+    background-color: none;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.view-comments, .add-comment {
+    padding-top: 11px;
+}
+.view-comments a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+
+.add-comment {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.add-comment a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+.add-comment img {
+    width: 15px;
+}
+
+.all-caught-up-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    width: 490px;
+    margin-left: 115px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+.all-caught-up {
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.all-caught-up img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+/* all-caught-up */ #headline {
+    font-size: 19px;
+}
+/* all-caught-up */ #text {
+    font-size: 15px;
+    color: grey;
+}
+.all-caught-up a {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+}

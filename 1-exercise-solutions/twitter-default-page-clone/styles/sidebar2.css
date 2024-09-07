@@ -1,0 +1,122 @@
+
+.navbar-2 {
+    top: 12px;
+    right: 15px;
+    position: fixed;
+}
+
+.first-navbar2-sidebar {
+    border: 1px solid rgb(231, 225, 225);
+    width: 290px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.new-to-twitter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px auto auto 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.signup-text {
+    padding-top: 7px;
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 5px auto auto 15px;
+    width: 270px;
+}
+
+.navbar-2 img {
+    width: 20px;
+}
+
+.buttons {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+}
+
+.signin-button {
+    font-family: Roboto;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: white;
+    height: 35px;
+    font-size: 15px;
+}
+
+.signin-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons button {
+    transition: background-color 0.15s;
+}
+
+.buttons button:hover {
+    background-color: rgba(211, 211, 211, 0.39);
+}
+
+.signin-button span {
+    position: relative;
+    bottom: 3px;
+}
+.signin-button img {
+    position: relative;
+    top: 1px;
+}
+.buttons button:nth-child(2),
+.buttons button:nth-child(3) {
+    font-weight: bold;
+}
+
+.Privacy-Policy {
+    padding-top: 1px;
+    font-family: Roboto;
+    font-size: 12px;
+    margin: 5px auto auto 15px;
+    width: 270px;
+}
+.Privacy-Policy a, .tweet-text span  {
+    text-decoration: none;
+    color: rgb(90, 138, 240);
+}
+
+.Privacy-Policy a:hover {
+    text-decoration: underline;
+}
+
+.second-navbar2-sidebar {
+    margin-top: 15px;
+    width: 270px;
+    grid-template-rows: 20px 10px;
+    display: grid;
+}
+.second-navbar2-sidebar span {
+    display: flex;
+    font-size: 13px;
+    width: 180px;
+    white-space: nowrap;
+}
+
+.second-navbar2-sidebar span div {
+    margin-left: 10px;
+}
+
+.second-navbar2-sidebar span div a {
+    text-decoration: none;
+    color: rgb(124, 118, 118);
+}
+
+.second-navbar2-sidebar span div a:hover {
+    text-decoration: underline;
+    color: rgb(124, 118, 118);
+}
