@@ -1,0 +1,58 @@
+.sidebar1 {
+    background-color: white;
+    border-right: 1px solid rgb(224, 216, 216);
+    width: 230px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+}
+
+.instagram-logo1 img {
+    width: 35px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.instagram-logo2 img {
+    width: 100px;
+    margin-left: 25px;
+}
+
+.nav-element {
+    display: flex;
+}
+
+.nav-element img {
+    margin-left: 25px;
+    width: 27px;
+    padding-bottom: 18.5px;
+}
+
+.nav-text {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* since the elements have the same class name, i put 'style="position: relative;"' only inside the elements with a alert, aka the red spans */
+.messages-count {
+    position: absolute;
+    top: -3px;
+    left: 44px;
+    padding: 1px 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: rgb(228, 60, 60);
+}
+.notificationst-alert {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgb(228, 60, 60); 
+    position: absolute;
+    left: 46px;
+}

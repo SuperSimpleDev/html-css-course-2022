@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<head>
+    <title> Instagram main page clone</title>
+    <link rel="stylesheet" href="styles/sidebar1.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/middle-page.css">
+    <link rel="stylesheet" href="styles/sidebar2.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/mobile-header-menu.css">
+    <link rel="stylesheet" href="styles/mobile-footer-menu.css">
+</head>
+<body>
+    
+    <!-- 
+    .header only activates on a certain max-width
+    | 
+    header responsive styles are available in 'mobile-header-menu.css' and not in 'responsive.css'
+    -->
+    <div class="header">
+        <div class="instagram-mobile-logo">
+            <img src="icons/instagram-text-logo.png" alt="">
+        </div>
+
+        <div class="section-right">
+            <div class="input">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="icon">
+                <img src="icons/heart.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+ 
+    <nav class="sidebar1">
+        <div class="instagram-logo1"> <!-- activation initialized when max-width > 1265px -->
+            <img src="icons/instagram.png" alt="">
+        </div>
+        <div class="instagram-logo2"> <!-- activation initialized when max-width > 1265px -->
+            <img src="icons/instagram-text-logo.png" alt="">
+        </div>
+        <div class="nav-element">
+            <img src="icons/home.png" alt="">
+            <div class="nav-text"><strong>Home</strong></div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/search-interface-symbol.png" alt="">
+            <div class="nav-text">Search</div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/compass.png" alt="">
+            <div class="nav-text">Explore</div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/video.png" alt="">
+            <div class="nav-text">Reels</div>
+        </div>
+        <div class="nav-element" style="position: relative;">
+            <img src="icons/send.png" alt="">
+            <span class="messages-count">4</span>   <!-- red alerts-->
+            <div class="nav-text"> Messages </div>
+        </div>
+        <div class="nav-element" style="position: relative;">
+            <img src="icons/heart.png" alt="">
+            <span class="notificationst-alert"> </span> <!-- red alerts-->
+            <div class="nav-text">Notifications</div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/tab.png" alt="">
+            <div class="nav-text">Create</div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/user.png" alt="">
+            <div class="nav-text">Profile</div>
+        </div>
+        <div class="nav-element">
+            <img src="icons/menu.png" alt="">
+            <div class="nav-text">More</div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="middle-page">
+            <div class="stories">
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <div class="profile-name">supersimpl</div>
+                </div>
+                <div class="story" style="position: relative;">
+                    <img class="story-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                    <img class="profile-picture" src="images/profile-pic.jpg" alt="">
+                    <span class="more-stories">></span> <!-- more stories icon -->
+                    <div class="profile-name">supersimpl</div>
+                </div>
+            </div>
+            
+            <div class="spacing"> </div> <!-- no purpose other than making space-->
+
+            <div class="posts-container">
+
+                <div class="post-header">
+
+                    <div class="left-section">
+                        <img class="post-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                        <img class="posts-profile-picture" src="images/profile-pic.jpg" alt="">
+                        <div class="post-author">
+                            SuperSimpleDev &#183; <span class="time">1d</span>
+                        </div>
+                        <div class="optional-tag">Original audio</div>
+                    </div>
+            
+                    <div class="right-section">
+                        <img id="favourite" src="icons/svgexport-9.svg" alt="">
+                        <img src="icons/icons8-ellipsis-90.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="post-content">
+                    
+                    <div class="post-image">
+                        <img src="images/banner-index.jpg" alt="">
+                    </div>
+
+                    <div class="post-actions-icons">
+
+                        <div class="left-icons">
+                            <img src="icons/heart.png" alt="">
+                            <img src="icons/chat.png" alt="">
+                            <img src="icons/send.png" alt="">
+                        </div>
+
+                        <div class="right-icon">
+                            <img src="icons/save-instagram.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="likes-summary">
+                        <img src="images/profile-pic.jpg" alt="">
+                        <div>Liked by TestName and 8,409 others</div>
+                    </div>
+
+                    <div class="post-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam, magni laborum voluptas odio molestiae hic illum...
+                        <a href="">more</a>
+                    </div>
+                    
+                    <div class="view-comments">
+                        <a href="">View all 125 comments</a>
+                    </div>
+
+                    <div class="add-comment">
+                        <div>
+                            <a href="">
+                                Add a comment...
+                            </a>
+                        </div>
+                        <div>
+                            <a href=""><img src="icons/noun-laughing-emoji-1494749.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posts-container">
+
+                <div class="post-header">
+
+                    <div class="left-section">
+                        <img class="post-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                        <img class="posts-profile-picture" src="images/profile-pic.jpg" alt="">
+                        <div class="post-author" id="single-post-author">
+                            SuperSimpleDev &#183; <span class="time">1d</span>
+                        </div>
+                    </div>
+            
+                    <div class="right-section">
+                        <img src="icons/icons8-ellipsis-90.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="post-content">
+                    
+                    <div class="post-image">
+                        <img src="images/dog2.jpg" alt="">
+                    </div>
+
+                    <div class="post-actions-icons">
+
+                        <div class="left-icons">
+                            <img src="icons/heart.png" alt="">
+                            <img src="icons/chat.png" alt="">
+                            <img src="icons/send.png" alt="">
+                        </div>
+
+                        <div class="right-icon">
+                            <img src="icons/save-instagram.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="likes-summary">
+                        <div><strong>56 likes</strong></div>
+                    </div>
+
+                    <div class="post-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam, magni laborum voluptas odio molestiae hic illum...
+                        <a href="">more</a>
+                    </div>
+                    
+                    <div class="view-comments">
+                        <a href="">View all 125 comments</a>
+                    </div>
+
+                    <div class="add-comment">
+                        <div>
+                            <a href="">
+                                Add a comment...
+                            </a>
+                        </div>
+                        <div>
+                            <a href=""><img src="icons/noun-laughing-emoji-1494749.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="all-caught-up-container">
+                <div class="all-caught-up">
+                    <img src="icons/illo-confirm-refresh-light.png" alt="">
+                    <div id="headline">You're all caught up</div>
+                    <div id="text">You've seen all new posts from the past 3 days.</div>
+                    <a href="">View older posts</a>
+                </div>
+            </div>
+            
+            <div class="posts-container">
+
+                <div class="post-header">
+
+                    <div class="left-section">
+                        <img class="post-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                        <img class="posts-profile-picture" src="images/profile-pic.jpg" alt="">
+                        <div class="post-author">
+                            SuperSimpleDev &#183; <span class="time">1d</span>
+                        </div>
+                        <div class="optional-tag">Original audio</div>
+                    </div>
+            
+                    <div class="right-section">
+                        <img src="icons/icons8-ellipsis-90.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="post-content">
+                    
+                    <div class="post-image">
+                        <img src="images/banner-index.jpg" alt="">
+                    </div>
+
+                    <div class="post-actions-icons">
+
+                        <div class="left-icons">
+                            <img src="icons/heart.png" alt="">
+                            <img src="icons/chat.png" alt="">
+                            <img src="icons/send.png" alt="">
+                        </div>
+
+                        <div class="right-icon">
+                            <img src="icons/save-instagram.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="likes-summary">
+                        <img src="images/profile-pic.jpg" alt="">
+                        <div>Liked by TestName and 8,409 others</div>
+                    </div>
+
+                    <div class="post-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam, magni laborum voluptas odio molestiae hic illum...
+                        <a href="">more</a>
+                    </div>
+                    
+                    <div class="view-comments">
+                        <a href="">View all 125 comments</a>
+                    </div>
+
+                    <div class="add-comment">
+                        <div>
+                            <a href="">
+                                Add a comment...
+                            </a>
+                        </div>
+                        <div>
+                            <a href=""><img src="icons/noun-laughing-emoji-1494749.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posts-container">
+
+                <div class="post-header">
+
+                    <div class="left-section">
+                        <img class="post-ring" src="icons/Instagram_Stories_ring.svg" alt="">
+                        <img class="posts-profile-picture" src="images/profile-pic.jpg" alt="">
+                        <div class="post-author" id="single-post-author">
+                            SuperSimpleDev &#183; <span class="time">1d</span>
+                        </div>
+                    </div>
+            
+                    <div class="right-section">
+                        <img src="icons/icons8-ellipsis-90.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="post-content">
+                    
+                    <div class="post-image">
+                        <img src="images/banner-index.jpg" alt="">
+                    </div>
+                    <div class="post-actions-icons">
+
+                        <div class="left-icons">
+                            <img src="icons/heart.png" alt="">
+                            <img src="icons/chat.png" alt="">
+                            <img src="icons/send.png" alt="">
+                        </div>
+
+                        <div class="right-icon">
+                            <img src="icons/save-instagram.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="likes-summary">
+                        <div><strong>56 likes</strong></div>
+                    </div>
+
+                    <div class="post-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam, magni laborum voluptas odio molestiae hic illum...
+                        <a href="">more</a>
+                    </div>
+                    
+                    <div class="view-comments">
+                        <a href="">View all 125 comments</a>
+                    </div>
+
+                    <div class="add-comment">
+                        <div>
+                            <a href="">
+                                Add a comment...
+                            </a>
+                        </div>
+                        <div>
+                            <a href=""><img src="icons/noun-laughing-emoji-1494749.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <nav class="sidebar2">
+    
+        <div class="first-sidebar2">
+            <div class="account-indicator">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div>LoremIpsumTestText</div>
+                </div>
+                <div class="switch"><a href="">Switch</a></div>
+            </div>
+            <div class="suggested-for-you"> 
+                <span class="sfy-text"> Suggested for you </span>
+                <span class="sfy-see"> <a href="">See All</a> </span>               
+            </div>
+            <div class="suggestions">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div class="information">Followed by testtest + 1 more</div>
+                </div>
+                <div class="follow"><a href="">follow</a></div>
+            </div>
+            <div class="suggestions">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div class="information">New to Instagram</div>
+                </div>
+                <div class="follow"><a href="">follow</a></div>
+            </div>
+            <div class="suggestions">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div class="information">Suggested for you</div>
+                </div>
+                <div class="follow"><a href="">follow</a></div>
+            </div>
+            <div class="suggestions">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div class="information">Suggested for you</div>
+                </div>
+                <div class="follow"><a href="">follow</a></div>
+            </div>
+            <div class="suggestions">
+                <img src="images/profile-pic.jpg" alt="">
+                <div class="account-info">
+                    <div>LoremIpsum</div>
+                    <div class="information">Suggested for you</div>
+                </div>
+                <div class="follow"><a href="">follow</a></div>
+            </div>
+        </div>
+
+        <div class="second-sidebar2">
+            <div class="links-section">
+                <a href="">About</a> 
+                &#183; 
+                <a href="">Help</a>
+                &#183; 
+                <a href="">Press</a> 
+                &#183; 
+                <a href="">API</a>
+                &#183; 
+                <a href="">Jobs</a> 
+                &#183; 
+                <a href="">Privacy</a> 
+                &#183; 
+                <a href="">Terms</a> 
+                &#183; 
+                <a href="">Locations</a> 
+                &#183; 
+                Language &#183; <!-- no links, drop down menu-->
+                <a href="">Meta Verified</a>
+            </div>
+            <div class="copyright">
+                &#169; 2023 INSTAGRAM FROM META
+            </div>
+        </div>
+    
+    </nav>
+
+    <!-- 
+    .footer only activates on a certain max-width
+    | 
+    footer responsive styles are available in 'mobile-footer-menu.css' and not in 'responsive.css'
+    -->
+    <div class="footer">
+        <div class="footer-images"><img src="icons/home.png" alt=""></div>
+        <div class="footer-images"><img src="icons/compass.png" alt=""></div>
+        <div class="footer-images"><img src="icons/video.png" alt=""></div>
+        <div class="footer-images"><img src="icons/tab.png" alt=""></div>
+        <div class="footer-images"><img src="icons/send.png" alt=""></div>
+        <div class="footer-images"><img src="icons/user.png" alt=""></div>
+    </div>
+</body>
+</html>

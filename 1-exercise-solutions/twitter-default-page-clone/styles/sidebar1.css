@@ -1,0 +1,20 @@
+.navbar {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-right: 1px solid rgb(241, 236, 236);
+}
+.navbar img {
+    padding-top: 10px;
+    width: 35px;
+}
+.navbar .search-icon, .navbar .settings-icon {
+    padding-top: 20px;
+}
+

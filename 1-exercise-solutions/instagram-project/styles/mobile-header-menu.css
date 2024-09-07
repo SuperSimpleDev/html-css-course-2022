@@ -1,0 +1,39 @@
+
+.header {
+    z-index: 200;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 212, 212);;
+}
+.instagram-mobile-logo img {
+    width: 110px;
+}
+.icon img {
+    width: 27px;
+    margin-right: 15px;
+}
+.section-right {
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    padding: 10px 85px 10px 10px;
+}
+@media (min-width: 805px) {
+    .header {
+        display: none;
+    }
+}

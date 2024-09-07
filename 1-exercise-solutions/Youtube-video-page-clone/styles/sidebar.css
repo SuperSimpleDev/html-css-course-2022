@@ -1,0 +1,114 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #303030;
+  --shadow-color: rgba(132, 139, 200, 0.18);
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+  --default-border: 1px solid rgb(184, 184, 184);
+  --default-button-border-radius: 0.5rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --default-gap: 1.25rem;
+  --padding-0: 1rem;
+  --padding-default: 0.7rem;
+  --sidebar-elements-gap: 0.5rem;
+  --padding-low: 0.3rem;
+  --button-padding: 0.24rem 0.8rem;
+  
+
+  --logo-width: 100px;
+  --small-logo-width: 100px;
+
+  --box-shadow: 0 2rem 3rem var(--shadow-color);
+
+  --default-button: none;
+
+  --small-font: 12px;
+
+} 
+
+.aside-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 14rem;
+  border-right: var(--default-border);
+  height: 100%;
+  overflow: auto;
+  background-color: var(--color-white);
+  z-index: 4;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.425);
+  z-index: 3;
+}
+
+.top-section {
+  align-items: center;
+  display: flex;
+  gap: var(--default-gap);
+  margin-left: var(--default-gap);
+  padding-bottom: var(--padding-default);
+  padding-top: 14px;
+}
+
+
+
+.sidebar-content {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.elements {
+  border-radius: var(--border-radius-1);
+  display: flex;
+  gap: var(--default-gap);
+  margin-left: var(--padding-0);
+  margin-bottom: var(--sidebar-elements-gap);
+  padding: var(--padding-low);
+  cursor: pointer;
+  transition: background-color 300ms ease;
+  padding-bottom: 1.5px;
+}
+
+.elements:hover {
+  background-color: rgba(170, 170, 170, 0.3);
+}
+
+.set {
+  border-bottom: var(--default-border);
+}
+
+.set-title {
+  margin-left: var(--default-gap);
+}
+
+.set-title .elements {
+  margin-left: -5px;
+}
+
+.bottom-section {
+  margin-top: var(--padding-default);
+  width: 90%;
+  font-size: var(--small-font);
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section div {
+  margin-left: var(--default-gap);
+  margin-bottom: var(--sidebar-elements-gap);
+}
