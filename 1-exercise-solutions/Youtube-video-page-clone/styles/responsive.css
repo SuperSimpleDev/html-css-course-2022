@@ -1,0 +1,119 @@
+@media screen and (max-width: 1100px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-left: var(--default-gap);
+  }
+
+  .main-left-section{
+    height: 100%;
+  }
+
+  .main-right-section {
+    height: 100%;
+  }
+
+  .main-comment-section {
+    height: 100%;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+  .middle-section input {
+    flex: 1;
+    border: var(--default-border);
+    border-radius: var(--border-radius-3) 0px 0px var(--border-radius-3);
+    padding: var(--searchBar-small-padding);
+    border-right: var(--default-border);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 530px;
+    padding-left: 10px;
+    padding-top: 1px;
+  }
+  .main-container video {
+    width: 530px;
+    height: 400px;
+  }
+  .main-left-section, .main-right-section, .main-comment-section {
+    width: 530px;
+  }
+  .add-container input {
+    width: 490px;
+    border: none;
+    border-bottom: var(--default-border);
+    outline: none;
+    margin-bottom: 5px;
+  }
+  .prompts {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 70px 120px; /*important*/
+  }
+}
+
+/*
+.middle-section {
+
+  max-width: 100px;
+  flex: 1;
+}
+
+.middle-section input {
+  flex: 1;
+  border: var(--default-border);
+  border-radius: var(--border-radius-3) 0px 0px var(--border-radius-3);
+  padding: var(--searchBar-small-padding);
+  width: 50px;
+  border-right: var(--default-border);
+}
+*/
+@media screen and (max-width: 580px) {
+  .middle-section input {
+    width: 40px;
+  }
+  .main-container {
+    width: 280px;
+    padding-left: 70px;
+    padding-top: 1px;
+  }
+  .main-container video {
+    width: 430px;
+    height: 300px;
+  }
+  .main-left-section, .main-right-section, .main-comment-section {
+    width: 430px;
+  }
+  .add-container input {
+    width: 400px;
+    border: none;
+    border-bottom: var(--default-border);
+    outline: none;
+    margin-bottom: 5px;
+  }
+  .prompts {
+    width: 430px;
+    display: grid;
+    grid-template-columns: 1fr 70px 120px; /*important*/
+  }
+  .video-description {
+    width: 440px;
+    font-size: var(--small-font);
+  }
+  .channel {
+    gap: 0px;
+  }
+
+  .video-share button {
+    display: none;
+  }
+
+  .video-more-option button {
+    display: none;
+  }
+}
