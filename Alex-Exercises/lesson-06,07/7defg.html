@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Text box</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            display: block;
+            margin: 10px;
+        }
+
+        .box-1 {
+            padding: 12px 15px 12px 15px;
+            font-size: 16px;
+            border: 1px solid grey;
+            border-radius: 4px;
+        }
+
+        .box-2 {
+            margin-top: 20px;
+            padding: 12px 120px 12px 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 60px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        .label {
+            color: grey;
+            margin-bottom: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        .email {
+            padding: 8px 150px 8px 8px;
+        }
+
+        .btn {
+            background-color: blue;
+            padding: 12px 16px;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            width: 180px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background-color: rgb(5, 5, 200);
+        }
+
+        .cat {
+            width: 50px;
+            height: 50px;
+            border-radius: 35px;
+            object-fit: cover;
+            object-position: center;
+            vertical-align: middle;
+        }
+
+        .text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            color: grey;
+            margin-left: 8px;
+        }
+
+        .tweet {
+            background-color: rgb(8, 98, 195);
+            color: white;
+            border: none;
+            border-radius: 16px;
+            padding: 8px 8px 8px 8px;
+            font-weight: bold;
+            margin-left: 60px;
+        }
+
+        .twitter {
+            border: 2px solid black;
+            padding: 12px 10px;
+            width: 350px;
+        }
+
+        .google{
+            border: 2px solid black;
+            padding: 12px 10px;
+            width: 350px;
+        }
+
+        .email-div{
+            border: 2px solid black;
+            padding: 8px 10px;
+            width: 350px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="google">
+        <input type="text" placeholder="Search" class="box-1">
+        <br>
+        <input type="text" placeholder="Search Google or type URL" class="box-2">
+    </div>
+    <br>
+    <div class="email-div">
+        <p class="label">Email</p>
+        <input type="email" class="email" placeholder="enter email">
+        <p class="agree" style="color: grey;">By clicking Agree & Join,You agree to the policy.</p>
+        <button class="btn">Agree & Continue</button>
+    </div>
+    <br>
+    <div class="twitter">
+        <img src="cat.jpg" class="cat">
+        <span class="text">whats on you mind !</span>
+        <button class="tweet">TWEET</button>
+    </div>
+
+
+</body>
+
+</html>

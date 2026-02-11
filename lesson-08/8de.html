@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Page</title>
+
+    <style>
+        .name{
+            display: inline-block;
+            padding: 14px 24px;
+            border: 1px solid black;
+            border-radius: 8px;
+            width: 100px;
+        }
+
+        .email{
+            display: block;
+            padding: 14px 24px;
+            border: 1px solid black;
+            border-radius: 8px;
+            width: 254px;
+            margin-top: 8px;
+        }
+        .signup-btn{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            width: 302px;
+            padding: 16px 20px;
+            margin-top: 8px;
+
+        }
+
+        .msg{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 36px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .route{
+            display: block;
+            padding: 12px 16px;
+            width: 250px;
+            margin-bottom: 8px;
+            background-color: rgb(227, 227, 227);
+            border: none;
+            color: grey;
+            font-weight: bold;
+        }
+
+        .req-btn,.schedule-btn{
+            padding: 12px 16px;
+            display: inline-block;
+        }
+        .req-btn{
+            background-color: black;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 6px;
+            cursor: pointer;
+        }
+        .schedule-btn{
+            background-color: rgb(227, 227, 227);
+            border: none;
+            color: grey;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 12px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <input type="text" placeholder="First Name" class="name">
+    <input type="text" placeholder="Last Name" class="name">
+    <input type="text" placeholder="Email" class="email">
+    <button class="signup-btn">Sign Up</button>
+
+    <p class="msg">Request a ride now</p>
+    <input type="text" placeholder="Enter pickup location" class="route">
+    <input type="text" placeholder="Enter Destination" class="route">
+    <button class="req-btn">Request now</button>
+    <button class="schedule-btn">Schedule for later</button>
+    
+</body>
+</html>
