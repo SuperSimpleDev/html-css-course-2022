@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    padding-bottom: 2000px; /* for testing the position:fixed; values */
+    margin-left: 100px;
+}

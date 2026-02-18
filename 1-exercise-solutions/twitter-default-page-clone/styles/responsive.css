@@ -1,0 +1,386 @@
+@media (min-width: 1px) and (max-width: 1299px) {
+    .icons-text {
+        display: none;
+    }
+}
+@media (min-width: 1022px) {
+    .navbar {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-right: 1px solid rgb(241, 236, 236);
+    }
+    .navbar img {
+        padding-top: 10px;
+        width: 35px;
+    }
+    .navbar .search-icon, .navbar .settings-icon {
+        padding-top: 20px;
+    }
+}
+
+@media  (max-width: 1026px) {
+    .navbar-2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1125px) {
+    .navbar {
+        width: 193px;
+        display: flex;
+        align-items: flex-end;
+        float: right;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-right: 1px solid rgb(241, 236, 236);
+    }
+    .navbar img {
+        padding-top: 10px;
+        padding-right: 30px;
+        width: 35px;
+    }
+    .navbar .search-icon, .navbar .settings-icon {
+        padding-top: 20px;
+    }
+
+    .main-page {
+        padding-left: 94px;
+    }
+}
+
+/* too big */
+@media (min-width: 1299px) {
+    .navbar {
+        width: 260px;
+        display: flex;
+        align-items: flex-start;
+        float: left;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-right: 1px solid rgb(241, 236, 236);
+    }
+    .icons-text {
+        font-size: 20px;
+        position: relative;
+        bottom: 10px;
+        right: 15px;
+    }
+    .navbar div:nth-child(2) {
+        font-weight: bold;
+    }
+    .navbar img {
+        padding-top: 10px;
+        padding-left: 30px;
+        width: 35px;
+    }
+    .navbar .search-icon, .navbar .settings-icon {
+        padding-top: 20px;
+    }
+
+    /* main page */
+    .main-page {
+        padding-left: 160px;
+    }
+
+    /* second navbar */
+    .navbar-2 {
+        top: 12px;
+        right: 65px;
+        position: fixed;
+    }
+
+    .first-navbar2-sidebar {
+        border: 1px solid rgb(231, 225, 225);
+        width: 340px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .buttons {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 285px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .overlay-flexbox {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 100%; /* problem */
+    }
+   /* .overlay-buttons {
+        position: relative;
+    } */
+    .log-in {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: transparent;
+        color: white;
+        padding: 10px 100px 10px 100px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .sign-up {
+        margin-left: 10px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: white;
+        color: black;
+        padding: 10px 100px 10px 100px;
+        font-weight: 800;
+        font-size: 14px;
+
+    }
+}   
+
+@media (max-width: 540px) {
+    .overlay-flexbox {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 100%; /* problem */
+    }
+   /* .overlay-buttons {
+        position: relative;
+    } */
+    .log-in {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: transparent;
+        color: white;
+        padding: 8px 50px 8px 50px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .sign-up {
+        margin-left: 10px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: white;
+        color: black;
+        padding: 8px 50px 8px 50px;
+        font-weight: 800;
+        font-size: 14px;
+
+    }
+}   
+
+@media (max-width: 450px) {
+    .overlay-flexbox {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 100%; /* problem */
+    }
+   /* .overlay-buttons {
+        position: relative;
+    } */
+    .log-in {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: transparent;
+        color: white;
+        padding: 8px 8px 8px 8px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .sign-up {
+        margin-left: 10px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        background-color: white;
+        color: black;
+        padding: 8px 8px 8px 8px;
+        font-weight: 800;
+        font-size: 14px;
+
+    }
+}  
+
+@media (max-width: 960px) {
+    .Title, .description {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .Title, .description {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    /* main page code */
+.main-page {
+    border-right: 1px solid rgb(241, 236, 236);
+    width: 400px;
+    bottom: 0;
+    top: 0;
+    position: relative;
+    height: auto;
+}
+.explore {
+    margin-left: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.952);
+    position: fixed;
+    width: 400px;
+}
+
+.explore div {
+    padding: 15px 0px 0px 20px;
+}
+
+.explore img {
+    padding-right: 15px;
+}
+.main-page-settings-icon {
+    width: 23px;
+}
+
+.spacing {
+    padding-top: 70px;
+}
+.tweet-container {
+    margin-left: -35px;
+    border-bottom: 1px solid rgb(241, 236, 236);
+    display: grid;
+    grid-row: 1fr;
+    transition: background-color 0.5s;
+}
+.tweet-container:hover {
+    background-color: rgba(211, 211, 211, 0.39);
+    cursor: pointer;
+}
+.tweet {
+    margin-top: 5px;
+    display: flex;
+}
+.profile-picture img {
+    width: 45px;
+    margin-left: 15px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.profile-info {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.name-id-time {
+    width: 309px;
+    justify-content: space-between;
+    display: flex;
+}
+.name-id-time img {
+    margin-right: 3px;
+    width: 15px;
+}
+.profile-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.id-and-time {
+    margin-left: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(129, 123, 123);
+}
+.tweet-text {
+    width: 70%;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.tweet-photo {
+    margin-top: 20px;
+    display: flex;
+}
+.tweet-photo img {
+    border-radius: 15px;
+    width: 300px;
+    object-fit: cover;
+    height: 510px;
+}
+.tweet-stats {
+    margin-top: 10px;
+    margin-left: 80px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    margin-bottom: 5px;
+}
+.comments span, .retweets span, .likes span, .views span {
+    font-size: 13px;
+    margin-left: -24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(145, 145, 144);
+}
+.tweet-stats img {
+    
+    width: 21px;
+    display: inline-block;
+}
+.tweet-stats .share-img img {
+    width: 24px;
+    display: inline-block;
+}
+/* navbar check */
+.navbar {
+    width: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-right: 1px solid rgb(241, 236, 236);
+}
+.navbar img {
+    padding-top: 10px;
+    width: 30px;
+}
+.navbar .search-icon, .navbar .settings-icon {
+    padding-top: 20px;
+}
+.main-page {
+    padding-left: 4px;
+}
+}
