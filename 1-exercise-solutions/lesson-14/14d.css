@@ -25,6 +25,10 @@ body {
 }
 
 .modal {
+  /* shift modal div to right */
+  position: fixed;
+  right: 70px;
+  
   background-color: white;
   width: 300px;
   padding-top: 15px;
